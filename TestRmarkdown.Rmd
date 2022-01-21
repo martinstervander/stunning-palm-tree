@@ -27,7 +27,10 @@ y <- rnorm(100)
 plot(x, y)
 ```
 
+Somehing else to try, perhaps. 
 ```{r}
-
+dots <- read.csv(file = "rawdata/ladybirds.csv")
+habitat_colour <- lm(number ~ Habitat + colour, dots)
+plot(habitat_colour)
 ```
 
