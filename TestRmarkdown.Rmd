@@ -1,0 +1,33 @@
+---
+title: "Test"
+author: "Martin Stervander"
+date: "1/21/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Title
+
+## Subheading
+
+### Subsub
+
+In this section I decided to use data from Jarvis et al. (2014), which I need to log transform, edit names, and match taxonomy.
+
+```{r, eval = TRUE, echo = FALSE}
+x <- 1:100
+y <- rnorm(100)
+```
+
+
+```{r}
+plot(x, y)
+```
+
+```{r}
+
+```
+
